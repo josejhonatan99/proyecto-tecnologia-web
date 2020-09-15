@@ -1,0 +1,268 @@
+p{
+	margin-bottom: 1.6em;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+}
+.logo {
+    height: 50px;
+    border-radius: 50%;
+}
+header{
+width:100%;
+
+position:fixed;
+	left: 0;
+	top: 0;
+    right: 0;
+    margin: 0;
+}
+header nav{
+	margin: 0 auto;
+    height: 100%;
+    left: 100%;
+    background: #024959;
+}
+.manu{
+display:none;/*para ocultar el boton de menu*/
+}
+header nav ul{
+    overflow: hidden;
+    list-style:none;
+}
+header nav ul li{
+float: left;
+}
+header nav ul li a {
+color: #fff;
+padding:20px;
+display:block;
+text-decoration:none;
+font-size: 30px;
+}
+header nav ul li span{
+    margin-right:10px;
+}
+header nav ul li a:hover{
+    background: rgb(3, 146, 161);
+}
+section{
+    padding: 20px;
+}
+main{
+    padding-top: 5rem;
+}
+.cuadro-g{
+   
+    overflow: hidden;
+ 
+}
+.imd img{
+    width: 100%;
+}
+.imd{
+    width: 500px;
+    float: left;
+}
+.apoyo{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    float: right;
+    margin-top: 50px;
+   margin-right: 50px;
+   color: whitesmoke;
+
+}
+
+.cuadroo2{
+    margin-top: 0;
+overflow: hidden;
+
+}
+.city{
+float: left;
+width: 50%;
+}
+.city img{
+   width: 75%; 
+}
+.mor{
+    padding: 10px;
+   color: whitesmoke;
+    float: right;
+    width: 40%;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-right: 80px;
+    border-style: none solid solid solid;
+    border-radius: 10px;
+}
+
+.cuadro3 img{
+    width: 300px;
+    height: 200px;
+}
+#tecno{
+background: seagreen;
+margin: 20px;
+}
+#tecno img{
+    width: 100%;
+    
+}
+
+
+
+
+footer{
+    width: 100%;
+    background: #024959;
+    color: white;    
+}
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+.container-body{
+    display: flex;
+    justify-content: space-between;
+}
+.colum1{
+    max-width: 400px;
+}
+.colum1 h1{
+    font-size: 22px;
+}
+.colum1 p{
+    font-size: 14px;
+    color: #C7C7C7;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.colum2{
+    max-width: 400px;  
+}
+.colum2 h1{
+    font-size: 22px;
+}
+.row{
+    margin-top: 20px;
+    display: flex;
+}
+.row img{
+    width: 36px;
+    height: 36px;
+}
+.row label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #C7C7C7;
+}
+.colum3{
+    max-width: 400px;
+}
+.colum3 h1{
+    font-size: 22px;
+}
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+}
+
+.container-footer{
+    width: 100%;  
+    background: #101010;
+}
+
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+    padding: 20px;
+}
+.copyright{
+    color: #C7C7C7;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.information a{
+    text-decoration: none;
+    color: #C7C7C7;
+}
+
+@media screen and (max-width:800px)/*esto es lo que limita al cuadro si pasa 800px el menu se alarga y si es menos se pone en cuadros*/
+{
+    .logo{
+        height: 50px;
+        border-radius: 50%;
+    }
+header nav{
+    width: 50%;
+    height: 100%;
+    left: -100%;
+    margin: 0;
+    position: fixed;
+}
+header nav ul li{
+    display: block;
+    float: none;
+    border-bottom:1px solid rgba(255,255,255,.3);
+}
+.manu{
+    display: block;
+    width: 100%;
+    background: #ccc;
+}
+.manu .btmenu{/*esta clase utilizamos el nombre con el que iniciamos en referencia MENU*/
+display:block;
+padding:20px;
+background-color: #024959;
+color: aliceblue;
+text-decoration: none;
+font-weight:lighter ;
+font-size: 25px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+.manu span {
+    font-size: 40px;
+}
+
+
+
+.container-body{
+    flex-wrap: wrap;
+}
+
+.colum1{
+    max-width: 100%;
+}
+
+.colum2,
+.colum3{
+    margin-top: 40px;
+}
+
+}

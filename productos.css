@@ -1,0 +1,295 @@
+p{
+	margin-bottom: 1.6em;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
+}
+.logo {
+    height: 50px;
+    border-radius: 50%;
+}
+header{
+width:100%;
+
+position:fixed;
+	left: 0;
+	top: 0;
+    right: 0;
+    margin: 0;
+}
+header nav{
+	margin: 0 auto;
+    height: 100%;
+    left: 100%;
+    background: #024959;
+}
+.manu{
+display:none;/*para ocultar el boton de menu*/
+}
+header nav ul{
+    overflow: hidden;
+    list-style:none;
+}
+header nav ul li{
+float: left;
+}
+header nav ul li a {
+color: #fff;
+padding:20px;
+display:block;
+text-decoration:none;
+font-size: 30px;
+}
+header nav ul li span{
+    margin-right:10px;
+}
+header nav ul li a:hover{
+    background: rgb(3, 146, 161);
+}
+section{
+    padding: 20px;
+}
+
+
+.container{
+    padding-top: 5rem;
+}
+
+#present{
+    color: white;
+    font-size: 25px;
+}
+
+
+
+.cuadro{
+overflow: hidden;
+margin: 5rem;
+
+}
+.titulo{
+background: rgba(15, 42, 92, 0.712);
+text-align: center;
+color: white;
+font-size: 40px;
+}
+.enun{
+    text-align: center;
+    color: white;
+    background: rgba(23, 82, 170, 0.432);
+    font-size: 30px;
+}
+.bloque{
+width: 20%;
+float: left;
+margin: 10px;
+border-radius: 10px;
+border-style: none solid solid solid;
+color: white;
+margin-left: 10%;
+}
+.bloque2{
+    width: 20%;
+float: left;
+margin: 10px;
+border-radius: 10px;
+border-style: none solid solid solid;
+color: white;
+
+}
+.subtitulo{
+text-align: center;
+font-size: 30px;
+background: rgb(7, 36, 80);
+}
+.bloque img{
+    width: 100%;
+}
+
+.text{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.precio{
+    background: rgb(3, 139, 126);
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    color: black;
+}
+.comprar{
+    text-align: center;
+    background: rgb(7, 36, 80);
+    border-radius: 10px;
+    font-size: 20px;
+    
+}
+.let{
+    text-decoration: none;
+    color: white;
+}
+#tab{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: teal;
+    
+}
+
+
+
+
+
+footer{
+    width: 100%;
+    background: #024959;
+    color: white;    
+}
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+.container-body{
+    display: flex;
+    justify-content: space-between;
+}
+.colum1{
+    max-width: 400px;
+}
+.colum1 h1{
+    font-size: 22px;
+}
+.colum1 p{
+    font-size: 14px;
+    color: #C7C7C7;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.colum2{
+    max-width: 400px;  
+}
+.colum2 h1{
+    font-size: 22px;
+}
+.row{
+    margin-top: 20px;
+    display: flex;
+}
+.row img{
+    width: 36px;
+    height: 36px;
+}
+.row label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #C7C7C7;
+}
+.colum3{
+    max-width: 400px;
+}
+.colum3 h1{
+    font-size: 22px;
+}
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+}
+
+.container-footer{
+    width: 100%;  
+    background: #101010;
+}
+
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+    padding: 20px;
+}
+.copyright{
+    color: #C7C7C7;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.information a{
+    text-decoration: none;
+    color: #C7C7C7;
+}
+
+
+@media screen and (max-width:800px)/*esto es lo que limita al cuadro si pasa 800px el menu se alarga y si es menos se pone en cuadros*/
+{
+    .logo{
+        height: 50px;
+        border-radius: 50%;
+    }
+header nav{
+    width: 50%;
+    height: 100%;
+    left: -100%;
+    margin: 0;
+    position: fixed;
+}
+header nav ul li{
+    display: block;
+    float: none;
+    border-bottom:1px solid rgba(255,255,255,.3);
+}
+.manu{
+    display: block;
+    width: 100%;
+    background: #ccc;
+}
+.manu .btmenu{/*esta clase utilizamos el nombre con el que iniciamos en referencia MENU*/
+display:block;
+padding:20px;
+background-color: #024959;
+color: aliceblue;
+text-decoration: none;
+font-weight:lighter ;
+font-size: 25px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+.manu span {
+    
+    font-size: 40px;
+}
+
+
+
+.container-body{
+    flex-wrap: wrap;
+}
+
+.colum1{
+    max-width: 100%;
+}
+
+.colum2,
+.colum3{
+    margin-top: 40px;
+}
+}

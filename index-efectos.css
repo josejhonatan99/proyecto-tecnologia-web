@@ -1,0 +1,9 @@
+.box-information:hover{
+    background: rgb(113, 204, 195);
+    color: black;
+    box-shadow: 10px 16px 10px 10px rgb(12, 56, 52);
+    }
+    header nav ul li a:hover{
+        background: rgb(3, 146, 161);
+    }
+    

@@ -1,0 +1,41 @@
+body{
+    background-image: url(/imagenes/agguua2.jpg);
+   
+}
+main{
+    padding-top: 5rem;
+    align-items: center;
+}
+.titulo-form {
+    background-color: rgba(9, 53, 110, 0.548);
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    
+}
+.cen{
+   margin-left: 10%;
+   margin-right: 10%;
+    font-size: 30px;
+    background: rgba(255, 255, 255, 0.199);
+    padding: 5%;
+    line-height: 50px;
+}
+
+input{
+    border-radius: 10px;
+    width: 30%;
+    height: 30px;
+}
+input:hover{
+    box-shadow:10px 10px 10px 10px #09352fc7;
+    
+}
+
+footer{
+	background: rgb(242, 245, 245);
+	padding: 4rem 0;
+	text-align: center;
+	margin-top: 6rem;
+}
+
