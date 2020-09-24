@@ -54,11 +54,9 @@ section{
 
 
 
-
-
 main{
     padding-top: 5rem;
-    background-image: url(/imagenes/portada.jpg);
+    background-image: url(/proyecto-tecnologia-web/imagenes/portada.jpg);
     align-items: center;
 }
 .titulo-form{

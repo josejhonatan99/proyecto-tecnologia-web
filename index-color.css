@@ -65,7 +65,7 @@ main{
 .portada{
     width: 100%;
     height: 400px;
-    background-image: url(/imagenes/fusion-medical-animation-rnr8D3FNUNY-unsplash.jpg);
+    background-image: url(/proyecto-tecnologia-web/imagenes/fusion-medical-animation-rnr8D3FNUNY-unsplash.jpg);
     background-size: 200%;
     animation: movimiento 10s infinite linear alternate;
     position: relative;
