@@ -126,7 +126,10 @@ table,td,tr,th{
 
     }
 
-
+iframe{
+    width: 1280px;
+   height: 500px;
+}
 
 
 
@@ -261,8 +264,8 @@ font-size: 25px;
 -moz-box-sizing: border-box;
 box-sizing: border-box;
 }
+
 .manu span {
-    
     font-size: 40px;
 }
 
@@ -275,8 +278,11 @@ box-sizing: border-box;
     max-width: 100%;
 }
 
-.colum2,
 .colum3{
     margin-top: 40px;
+}
+
+iframe{
+    width: 100%;
 }
 }

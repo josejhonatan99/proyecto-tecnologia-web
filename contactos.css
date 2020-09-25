@@ -282,7 +282,15 @@ box-sizing: border-box;
     font-size: 40px;
 }
 
-
+#unete{
+    background: rgba(6, 27, 121, 0.493);
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+}
 .container-body{
     flex-wrap: wrap;
 }
@@ -293,8 +301,6 @@ box-sizing: border-box;
 .colum3{
     margin-top: 40px;
 }
-
-
 .cont{
     background-color: rgba(255, 255, 255, 0.226);
     overflow: hidden;

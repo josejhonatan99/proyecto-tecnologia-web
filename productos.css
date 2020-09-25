@@ -294,11 +294,6 @@ box-sizing: border-box;
 }
 
 
-
-
-
-
-
 .cuadro{
     overflow: hidden;
     margin: 5rem;
@@ -312,12 +307,10 @@ box-sizing: border-box;
     }
     .publici{
         margin: 10px;
-        overflow: hidden;
     }
     .publici img{
-        width: 650px;
-        height: 400px;
-        display: inline-block;
+        width: 100%;
+        display: block;
     }
 
     .enun{
