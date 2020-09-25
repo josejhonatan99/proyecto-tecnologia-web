@@ -67,7 +67,7 @@ main{
     height: 400px;
     background-image: url(/proyecto-tecnologia-web/imagenes/fusion-medical-animation-rnr8D3FNUNY-unsplash.jpg);
     background-size: 200%;
-    animation: movimiento 10s infinite linear alternate;
+    animation: movimiento 15s infinite linear alternate;
     position: relative;
 }
 
@@ -139,6 +139,10 @@ margin: auto;
 }
 .services{
   background: darkslategray;
+}
+
+.services img{
+    width: 24%;
 }
 
 
@@ -240,11 +244,6 @@ footer{
 }
 
 
-
-
-
-
-
 @media screen and (max-width:800px)/*esto es lo que limita al cuadro si pasa 800px el menu se alarga y si es menos se pone en cuadros*/
 {
 
@@ -293,7 +292,21 @@ box-sizing: border-box;
 }
 
 
-
+.panell{
+    background-color: cadetblue;
+    overflow: hidden;
+ }
+ .box-information{
+     margin: 20px;
+     padding: 10px;
+     background: rgb(11, 102, 94);
+     color: white;
+     font-size: 30px;
+     width: 90%;
+     float: left;
+     border-radius: 10px;
+     display: block;
+ }
 
 .container-body{
     flex-wrap: wrap;
@@ -302,8 +315,6 @@ box-sizing: border-box;
 .colum1{
     max-width: 100%;
 }
-
-.colum2,
 .colum3{
     margin-top: 40px;
 }

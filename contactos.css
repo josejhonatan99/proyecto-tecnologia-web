@@ -67,7 +67,7 @@ main{
 .email h1{
     text-align: center;
     color: white;
-    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    background: rgb(13, 37, 109);
     font-size: 50px;
 }
 .email img{
@@ -83,25 +83,37 @@ margin-right: 100px;
 padding: 10px;
 color: white;
 }
-
+.cont{
+background-color: rgba(255, 255, 255, 0.226);
+overflow: hidden;
+}
 .cont1{
     overflow: hidden;
     color: white;
     font-size: 25px;
     padding: 2%;
-    background: rgba(255, 255, 255, 0.233);
-    width: 50%;
-}
-.girl img{
-float: left;
-width: 50%;
-}
-.par{
     width: 40%;
-    float: right;
-    background: rgba(8, 35, 117, 0.342);
+    float: left;
 }
 
+.em img{
+    width: 100%;
+}
+
+
+.neg img{
+width: 45%;
+margin: 10px;
+}
+
+.edificio img{
+    width: 100%;
+}
+.edificio p{
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+}
 aside{
     width: 45%;
     float: right;
@@ -278,9 +290,23 @@ box-sizing: border-box;
 .colum1{
     max-width: 100%;
 }
-
-.colum2,
 .colum3{
     margin-top: 40px;
 }
+
+
+.cont{
+    background-color: rgba(255, 255, 255, 0.226);
+    overflow: hidden;
+    }
+    .cont1{
+        color: white;
+        font-size: 25px;
+        padding: 2px;
+        width: 100%;
+    }
+    
+
+
+
 }
