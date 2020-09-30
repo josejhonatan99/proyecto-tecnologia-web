@@ -8,7 +8,6 @@ p{
 }
 body{
     background: white;
-
 }
 .logo {
     height: 50px;
@@ -21,7 +20,6 @@ position:fixed;
 	top: 0;
     right: 0;
 }
-
 header nav{
 	margin: 0 auto;
     height: 100%;
@@ -34,6 +32,7 @@ display:none;/*para ocultar el boton de menu*/
 header nav ul{
     overflow: hidden;
     list-style:none;
+    
 }
 header nav ul li{
 float: left;
@@ -44,80 +43,14 @@ padding:20px;
 display:block;
 text-decoration:none;
 font-size: 30px;
-}
-header nav ul li span{
-    margin-right:10px;
-}
 
+}
 section{
     padding: 20px;
 }
 
 main{
-    padding-top: 4.7rem;
-
-}
-
-
-
-
-/*portada*/
-.portada{
-    width: 100%;
-    height: 400px;
-    background-image: url(/proyecto-tecnologia-web/imagenes/fusion-medical-animation-rnr8D3FNUNY-unsplash.jpg);
-    background-size: 200%;
-    animation: movimiento 15s infinite linear alternate;
-    position: relative;
-}
-
-
-@keyframes movimiento{
-    from{
-        background-position: bottom left;
-    }
-    to{
-        background-position: top right;
-    }
-}
-.capa-gradient{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    
-    opacity: 0.5;
-}
-.cont-details{
-width: 100%;
-max-width: 1200px;
-position: relative;
-margin: auto;
-}
-.details{
-    width: 100%;
-    max-width: 500px;
-    position: relative;
-    top: 20px;
-    left: 10px;
-    color: white;
-}
-.details h1{
-    font-size: 50px;
-    font-weight: 100;
-}
-.details p{
-    margin-top: 10px;
-    font-size: 25px;
-}
-#botons{
-    padding: 10px 20px;
-    font-size: 20px;
-    background: none;
-    border-style: none;
-    border: 1px solid white;
-    color: white;
-    margin-top: 20px;
-    text-decoration: none;
+    padding-top: 4rem;
 }
 #botons:hover{
     background-color: white;
@@ -147,10 +80,6 @@ margin: auto;
 }
 
 
-
-
-
-
 footer{
     width: 100%;
     background: #024959;
@@ -160,14 +89,15 @@ footer{
     width: 100%;
     max-width: 1200px;
     margin: auto;
-    padding: 40px;
+    padding: 60px;
 }
 .container-body{
     display: flex;
     justify-content: space-between;
 }
 .colum1{
-    max-width: 400px;
+    
+    width: 400px;
 }
 .colum1 h1{
     font-size: 22px;
@@ -175,7 +105,7 @@ footer{
 .colum1 p{
     font-size: 14px;
     color: #C7C7C7;
-    margin-top: 20px;
+    
     font-size: 25px;
 }
 .colum2{
@@ -258,16 +188,20 @@ header nav{
     left: -100%;
     margin: 0;
     position: fixed;
+   
+    
 }
 header nav ul li{
     display: block;
     float: none;
     border-bottom:1px solid rgba(255,255,255,.3);
+   
 }
 .manu{
     display: block;
     width: 100%;
     background: #ccc;
+   
 }
 
 .manu .btmenu{/*esta clase utilizamos el nombre con el que iniciamos en referencia MENU*/
@@ -309,16 +243,39 @@ box-sizing: border-box;
      display: block;
  }
 
-.container-body{
-    flex-wrap: wrap;
+
+ main{
+    width: 100%;
 }
 
-.colum1{
-    max-width: 100%;
-}
-.colum3{
-    margin-top: 40px;
+
 }
 
+
+@media screen and (max-width: 1100px){
+    footer{
+width: 100%;
+    }
+    .container-footer-all{
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        padding: 20px;
+    }
+    .container-body{
+        flex-wrap: wrap;
+    }
+    
+    .colum1{
+        max-width: 100%;
+        
+    }
+    
+    .colum3{
+        margin-top: 40px;
+    }
+    main{
+        width: 100%;
+    }
 
 }

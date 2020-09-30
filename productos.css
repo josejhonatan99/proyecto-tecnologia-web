@@ -292,12 +292,10 @@ box-sizing: border-box;
 .colum3{
     margin-top: 40px;
 }
-
-
 .cuadro{
     overflow: hidden;
-    margin: 5rem;
-    
+    margin: 10px;
+   
     }
     .titulo{
     background: rgba(15, 42, 92, 0.712);
@@ -312,7 +310,6 @@ box-sizing: border-box;
         width: 100%;
         display: block;
     }
-
     .enun{
         text-align: center;
         color: white;

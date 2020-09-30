@@ -16,3 +16,7 @@ $(".manu").click(function(){
     } 
 });
 }
+(function(){
+    var fecha=new Date();
+    document.getElementById('resultado').value=fecha
+}())

@@ -75,16 +75,13 @@ main{
 
 input{
     border-radius: 10px;
-    width: 30%;
+    width: 40%;
     height: 30px;
 }
 input:hover{
     box-shadow:10px 10px 10px 10px #09352fc7;
     
 }
-
-
-
 
 
 footer{
@@ -222,6 +219,16 @@ box-sizing: border-box;
     
     font-size: 40px;
 }
+.cen h1{
+    font-size: 40px;
+}
+.cen input{
+   width: 90%;
+}
+
+
+
+
 
 
 
@@ -238,6 +245,8 @@ box-sizing: border-box;
 .colum3{
     margin-top: 40px;
 }
+
+
 
 }
 

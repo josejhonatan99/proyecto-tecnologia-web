@@ -14,7 +14,6 @@ body{
 }
 header{
 width:100%;
-
 position:fixed;
 	left: 0;
 	top: 0;
@@ -64,10 +63,7 @@ main{
 .imd img{
     width: 100%;
 }
-.imd{
-    width: 500px;
-    float: left;
-}
+
 .apoyo{
     color: rgb(0, 0, 0);
     font-size: 50px;
@@ -250,7 +246,16 @@ box-sizing: border-box;
     font-size: 40px;
 }
 
-
+.imd img{
+    width: 100%;
+}
+.apoyo{
+    font-size: 30px;
+    padding: 10px;
+}
+.cuadro3 img{
+width: 100%;
+}
 
 .container-body{
     flex-wrap: wrap;
